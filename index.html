@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <!-- /.website title -->
+        <title>Full Fill</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- CSS Files -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet" media="screen">
+        <link href="css/owl.theme.css" rel="stylesheet">
+        <link href="css/owl.carousel.css" rel="stylesheet">
+
+        <!-- Colors -->
+        <link href="css/css-index.css" rel="stylesheet" media="screen">
+        <!-- <link href="css/css-index-green.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/css-index-purple.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/css-index-red.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/css-index-orange.css" rel="stylesheet" media="screen"> -->
+        <!-- <link href="css/css-index-yellow.css" rel="stylesheet" media="screen"> -->
+
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+
+		
+    </head>
+
+    <body data-spy="scroll" data-target="#navbar-scroll">
+
+        <!-- /.preloader -->
+        <div id="preloader"></div>
+        <div id="top"></div>
+
+        <!-- /.parallax full screen background image -->
+        <div class="fullscreen landing parallax" style="background-image:url('images/bg1.jpeg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+
+                            <!-- /.logo -->
+                            <div class="logo wow fadeInDown"> <a href=""><img src="images/logo.png" alt="logo"></a></div>
+
+                            <!-- /.main title -->
+                            <h1 class="wow fadeInLeft">
+                                Espacio de almacenaje instantáneo, flexible y económico
+                            </h1>
+
+                            <!-- /.header paragraph -->
+                            <div class="landing-text wow fadeInUp">
+                                <p>Full Fill te ayuda a transportar y almacenar tus productos en espacio sin utilizar de los almacenes de otros, <strong>donde a ti te interesa y al mejor precio </strong>. </p>
+                            </div>				  
+
+                            <!-- /.header button -->
+                            <div class="head-btn wow fadeInLeft">
+                                <a href="#feature" class="btn-primary">Más información</a>
+                                <!-- <a href="#What-we-do" class="btn-default">¿Cómo funciona?</a> -->
+                            </div>
+
+
+
+                        </div> 
+
+                        <!-- /.signup form -->
+                        <div class="col-md-5">
+
+                            <div class="signup-header wow fadeInUp">
+                                <h3 class="form-title text-center">¡Consulta sin compromiso!</h3>
+                                <form class="form-header" action="https://script.google.com/macros/s/AKfycbzenOyZ2W-xLECTAkhdmSf7BL5YHOMxb-0FR-O_Q5UGeFpBzXB9/exec" role="form" method="POST" id="gform">
+                                    <input type="hidden" name="u" value="503bdae81fde8612ff4944435">
+                                    <input type="hidden" name="id" value="bfdba52708">
+                                    <div class="form-group">
+                                        <input class="form-control input-lg" name="Nombre" id="name" type="text" placeholder="Nombre" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control input-lg" name="email" id="email" type="email" placeholder="Dirección de email" required>
+                                    </div>
+									<div class="form-group">
+                                        <input class="form-control input-lg" name="Numero" id="n_pallet" type="number" placeholder="Número de pallets" required>
+                                    </div>
+									<div class="form-group">
+                                        <input class="form-control input-lg" name="Lugar" id="searchTextField" type="text" placeholder="CP/Ciudad/Calle donde se desea la mercancia" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="btn-tertiary btn-block btn-lg" name="Demanda" id="Demanda" value="Quiero espacio">
+									</div>
+                                    <div class="form-group last">
+										<input type="submit" class="btn-secondary btn-block btn-lg" name="Oferta" id="Oferta" value="Me sobra espacio" onclick="myFunction();">
+                                    </div>
+                                    <p class="privacy text-center">Tu email solo será usado por nosotros. Lee nuestra <a href="privacy.html">política de privacidad</a>.</p>
+                                </form>
+								<!-- Customise the Thankyou Message People See when they submit the form: -->
+									<div style="display:none;" id="thankyou_message">
+										<h2>¡<em>Gracias</em> por tu consulta!
+										Actualmente estamos en fase de pruebas, mientras acabamos nuestra herramienta nos pondremos en contacto contigo por email.</h2>
+									</div>
+                            </div>				
+
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+
+        <!-- NAVIGATION -->
+        <div id="menu">
+            <nav class="navbar-wrapper navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-backyard">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand site-name" href="#top"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+
+                    <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#intro">Información</a></li>
+                            <li><a href="#feature">El servicio</a></li>
+                            <li><a href="#supply">Me sobra espacio</a></li>
+                            <!--<li><a href="#package">Precios</a></li>-->
+                            <li><a href="#client">Clientes</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- /.intro section -->
+        <div id="intro">
+            <div class="container">
+                <div class="row">
+
+                    <!-- /.intro image -->
+                    <div class="col-md-6 intro-pic wow slideInLeft">
+                        <img src="images/España2.png" alt="image" class="img-responsive img-circle">
+                    </div>	
+
+                    <!-- /.intro content -->
+                    <div class="col-md-6 wow slideInRight">
+                        <h2>Tenemos espacio disponible en todas las CCAA de la península</h2>
+                        <p>Tener almacenes repartidos por todo el país es caro y altamente complejo. <a href="#">Full Fill</a> simplifica este proceso ya que disponemos de capcidad libre en casi todas las provincias de la península. Además, mediante nuestro Warehouse Network Management System propietario, siempre sabrás dónde está tu mercancía.
+                        </p>
+
+                        <div class="btn-section"><a href="#feature" class="btn-default">Saber más</a></div>
+
+                    </div>
+                </div>			  
+            </div>
+        </div>
+
+        <!-- /.feature section -->
+        <div id="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+
+                        <!-- /.feature title -->
+                        <h2>Guarda tu mercancía cerca de donde haga falta</h2>
+                        <p>Llega más lejos y más rápido de lo que nunca has creído posible, cuando lo necesites y con trazabilidad</p>
+                    </div>
+                </div>
+                <div class="row row-feat">
+                    <div class="col-md-4 text-center">
+
+                        <!-- /.feature image -->
+                        <div class="feature-img">
+                            <img src="images/Logo_3.png" alt="image" class="img-responsive wow fadeInLeft">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+
+                        <!-- /.feature 1 -->
+                        <div class="col-sm-6 feat-list-l">
+                            <i class="pe-7s-map pe-5x pe-va wow fadeInUp"></i>
+                            <div class="inner">
+                                <h4>El lugar que más te convienen</h4>
+                                <p>Con más de 100.000 m&sup2 repartidos por toda la península, escoger tu almacén favorito nunca ha sido tan fácil. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 2 -->
+                        <div class="col-sm-6 feat-list-l">
+                            <i class="pe-7s-cash pe-5x pe-va wow fadeInUp" data-wow-delay="0.2s"></i>
+                            <div class="inner">
+                                <h4>Paga sólo por lo que uses</h4>
+                                <p>Aumenta y reduce tu capacidad disponible en función de tus necesidades y de manera instantánea</p>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 3 -->
+                        <div class="col-sm-6 feat-list-l">
+                            <i class="pe-7s-plane pe-5x pe-va wow fadeInUp" data-wow-delay="0.4s"></i>
+                            <div class="inner">
+                                <h4>Nos encargamos del transporte</h4>
+                                <p>Despreocúpate, nuestros precios incluyen el transporte desde donde esté tu mercancía hasta el almacén escogido</p>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 4 -->
+                        <div class="col-sm-6 feat-list-l">
+                            <i class="pe-7s-cloud-download pe-5x pe-va wow fadeInUp" data-wow-delay="0.6s"></i>
+                            <div class="inner">
+                                <h4>Trazabilidad total</h4>
+                                <p>Nuestro Warehouse Network Management System te permite tener tu mercancía siempre localizada</p>
+                            </div>
+                        </div>
+						<div class="btn-section"><a href="#What-we-do" class="btn-primary">¿Cómo funciona?</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.What-we-do section -->
+        <div id="What-we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title">
+
+                        <!-- /.feature title -->
+                        <h2>¿Cómo funciona?</h2>
+                    </div>
+                </div>
+                <div class="row row-feat">
+
+                    <div class="col-md-12">
+
+                        <!-- /.feature 1 -->
+                        <div class="col-sm-3 feat-list">
+							<div class="text-center">
+								<i class="fa fa-pencil-square wow fadeInDown"></i>
+							</div>
+                            <div class="inner">
+                                <h4>Rellena nuestro formulario y revisa los almacenes propuestos</h4>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 2 -->
+                        <div class="col-sm-3 feat-list">
+							<div class="text-center">
+								<i class="fa fa-check-square-o wow fadeInDown" data-wow-delay="0.2s"></i>
+							</div>
+                            <div class="inner">
+                                <h4>Si el precio te convence, puedes contratar el servicio en el momento</h4>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 3 -->
+                        <div class="col-sm-3 feat-list">
+							<div class="text-center">
+								<i class="fa fa-truck fa-flip-horizontal wow fadeInDown" data-wow-delay="0.4s"></i>
+							</div>
+                            <div class="inner">
+                                <h4>Indícanos una hora y lugar para que recojamos la mercancía</h4>
+                            </div>
+                        </div>
+
+                        <!-- /.feature 4 -->
+                        <div class="col-sm-3 feat-list">
+                            <div class="text-center">
+								<i class="fa fa-desktop fa-flip-horizontal wow fadeInDown" data-wow-delay="0.6s"></i>
+							</div>
+                            <div class="inner">
+                                <h4>Gestiona tu mercancía en cualquier momento desde nuestra plataforma online</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<div class="text-center">
+					<div class="btn-section"><a href="#top" class="btn-default">Empieza</a></div>
+				</div>
+            </div>
+        </div>
+
+
+        <!-- /.download section -->
+        <div id="supply">
+            <div class="action fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1333" data-diff="100">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+
+                            <!-- /.download title -->
+                            <h2 class="wow fadeInRight">¿Tienes espacio sin usar?</h2>
+                            <p class="download-text wow fadeInLeft">Rellena el formulario y nos pondremos en contacto contigo. Te ayudaremos a llenar tu espacio sin esfuerzo por tu parte.</p>
+
+                            <!-- /.download button -->
+                            <div class="download-cta wow fadeInLeft">
+                                <a href="#top" class="btn-secondary">Llena tu espacio</a>
+                            </div>
+                        </div>	
+                    </div>	
+                </div>
+            </div>
+        </div>
+
+			
+        <!-- /.pricing section -->
+
+
+        <!-- /.client section -->
+        <div id="client"> 
+            <div class="container">
+				<div class="text-center">
+                    <!-- /.pricing title -->
+                    <h2 class="wow fadeInLeft">Algunos de nuestros clientes</h2>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <img alt="client" src="images/client1.png" class="wow fadeInUp">
+                        <img alt="client" src="images/client2.png" class="wow fadeInUp" data-wow-delay="0.2s">
+                        <img alt="client" src="images/client3.png" class="wow fadeInUp" data-wow-delay="0.4s">
+                        <img alt="client" src="images/client4.png" class="wow fadeInUp" data-wow-delay="0.6s">
+                    </div>
+                </div>
+            </div>	
+        </div>
+
+        <!-- /.testimonial section -->
+        
+
+        <!-- /.contact section -->
+        <div id="contact">
+            <div class="contact fullscreen parallax" style="background-image:url('images/bg.jpg');" data-img-width="2000" data-img-height="1334" data-diff="100">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row contact-row">
+
+                            <!-- /.address and contact -->
+                            <div class="col-sm-5 contact-left wow fadeInUp">
+                                <h2><span class="highlight">Contacta</span> con nosotros</h2>
+                                <ul class="ul-address">
+                                    <li><i class="pe-7s-map-marker"></i>Calle Sagasta 31 2º, Madrid</br>
+                                        España, Madrid 28004
+                                    </li>
+                                    <li><i class="pe-7s-phone"></i>+34 (91) 884-1100</br>
+                                        
+                                    </li>
+                                    <li><i class="pe-7s-mail"></i><a href="mailto:info@fullfill.es">info@fullfill.es</a></li>
+                                    <li><i class="pe-7s-look"></i><a href="#">www.fullfill.es</a></li>
+                                </ul>	
+
+                            </div>
+
+                            <!-- /.contact form -->
+                            <div class="col-sm-7 contact-right">
+                                <form method="POST" id="contact-form" class="form-horizontal" action="contactengine.php" onSubmit="alert( '¡Gracias por tu mensaje!' );">
+                                    <div class="form-group">
+                                        <input type="text" name="Name" id="Name" class="form-control wow fadeInUp" placeholder="Nombre" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="Email" id="Email" class="form-control wow fadeInUp" placeholder="Email" required/>
+                                    </div>					
+                                    <div class="form-group">
+                                        <textarea name="Message" rows="20" cols="20" id="Message" class="form-control input-message wow fadeInUp"  placeholder="Mensaje" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" value="Enviar" class="btn btn-success wow fadeInUp" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="col-sm-4 col-sm-offset-4">
+                    <!-- /.social links -->
+                    
+                    <div class="text-center wow fadeInUp" style="font-size: 14px;">Copyright Full Fill 2017 - Template by  <a href="https://bootstrapthemes.co/" target="_blank">BootstrapThemes</a></div>
+                    <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
+                </div>	
+            </div>	
+        </footer>
+
+        <!-- /.javascript files -->
+		
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+		<script data-cfasync="false" type="text/javascript"
+		src="js/form-submission-handler.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDSAerH_bFgwh-KHNzOzH5xiRHrGH-8G8&libraries=places&callback=initMap"
+        async defer></script>
+		<script>
+			function initMap() {
+				var input = document.getElementById('searchTextField');
+				var options = {
+					<!--//types: ['(cities)'],-->
+					componentRestrictions: {country: "es"}
+				};
+				var autocomplete = new google.maps.places.Autocomplete(input,options);
+			}
+			
+		</script>
+        <script>
+                                    new WOW().init();
+        </script>
+		<script>
+			function myFunction(){ // Sireve para saber que botón ha pulsado
+				document.getElementById('Demanda').value='Me sobra espacio';
+			};
+		</script>
+    </body>
+</html>
